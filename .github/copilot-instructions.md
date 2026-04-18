@@ -1,0 +1,16 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Clarify Project Requirements
+- [x] Scaffold the Project
+- [x] Customize the Project
+- [x] Install Required Extensions
+- [x] Compile the Project
+- [x] Create and Run Task
+- [x] Launch the Project
+- [x] Ensure Documentation is Complete
+
+- Project type: Next.js 15 with App Router and TypeScript.
+- Main features: server-side task loading, controlled task creation form, custom counting hook, Jest and Testing Library coverage.
+- Scaffolding note: project was created manually because the current folder name is not a valid npm package name for create-next-app.
+- Extensions note: no additional extensions were required by the project setup guidance.
+- Validation note: npm test and npm run build completed successfully.
+- Run note: a VS Code task was created to start the Next.js dev server on http://localhost:3000.
