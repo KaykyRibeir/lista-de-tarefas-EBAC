@@ -1,46 +1,68 @@
-# Lista de Tarefas
+# Gerenciador de Atividades - Next.js 15
 
-Aplicacao simples em Next.js 15 com App Router e TypeScript para listar e adicionar tarefas localmente.
+Projeto desenvolvido para prática de testes unitários utilizando Next.js 15, TypeScript, Jest e Testing Library.
 
-## Requisitos
+A aplicação permite visualizar e adicionar atividades localmente utilizando componentes server-side e client-side.
 
-- Node.js 20 ou superior
-- npm 10 ou superior
+## Tecnologias utilizadas
 
-## Instalacao
+- Next.js 15
+- React
+- TypeScript
+- Jest
+- Testing Library
 
-1. Clone o repositorio.
-2. Instale as dependencias com npm install.
+## Funcionalidades
 
-## Execucao
+- Exibição de tarefas carregadas localmente
+- Adição de novas atividades
+- Contagem automática de tarefas
+- Validação de formulário
+- Testes unitários dos componentes e hooks
 
-- Desenvolvimento: npm run dev
-- Build de producao: npm run build
-- Servidor de producao: npm run start
-- Testes: npm run test
-- Testes em modo watch: npm run test:watch
+## Instalação
 
-Depois de iniciar em desenvolvimento, acesse http://localhost:3000.
+Clone o repositório e instale as dependências:
 
-## Estrutura
+```bash
+npm install
+```
 
-- app: layout global e pagina inicial server-side
-- components: componentes de interface
-- hooks: hooks customizados
-- lib: fonte de dados simulada
-- pages: pasta reservada para expansoes futuras
-- tests: testes unitarios e de renderizacao
+## Executando o projeto
 
-## Scripts
+Para iniciar o ambiente de desenvolvimento:
 
-- npm run dev
-- npm run build
-- npm run start
-- npm run test
-- npm run test:watch
+```bash
+npm run dev
+```
 
-## Cobertura testada
+A aplicação ficará disponível em:
 
-- Renderizacao da pagina com tarefas carregadas do arquivo local
-- Fluxo de validacao e submissao do componente NovaTarefa
-- Contagem de tarefas com o hook useContadorDeTarefas
+```txt
+http://localhost:3000
+```
+
+## Executando os testes
+
+```bash
+npm test
+```
+
+## Estrutura do projeto
+
+```txt
+app/
+components/
+hooks/
+lib/
+tests/
+```
+
+## Cobertura dos testes
+
+Os testes verificam:
+
+- Renderização da página principal
+- Funcionamento do componente NovaTarefa
+- Validação do formulário
+- Hook useContadorDeTarefas
